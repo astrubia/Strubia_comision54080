@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 import Container from "react-bootstrap/Container";
-import { useparams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import data from "../data/products.json";
 
 export const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null);
 
-    const {id} = useparams();
+    const {id} = useParams();
 
     useEffect(() => {
         const get = new Promise((resolve, reject) => {
