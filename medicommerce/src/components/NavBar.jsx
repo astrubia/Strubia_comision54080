@@ -9,10 +9,11 @@ export const NavBar = () => {
     return (
       <Navbar bg="success" variant="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Medicommerce</Navbar.Brand>
+        <Navbar.Brand href="#">Medicommerce</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link to="/category/ortopedia" as={NavLink}>Ortopedia</Nav.Link>
           <Nav.Link to="/category/optica" as={NavLink}>Optica</Nav.Link>
+          <Nav.Link to="/category/Dispositivos" as={NavLink}>Dispositivos</Nav.Link>
         </Nav>
         <CartWidget/>
       </Container>

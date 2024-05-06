@@ -16,10 +16,50 @@
 },
 
 {
-"name": "lentes multifocales",
+"name": "andadores",
 "id": 3,
+"category": "ortopedia",
+"detail": "Estabilidad y Movilidad. Resistente, seguro y fácil de usar, este andador ofrece el soporte necesario para una recuperación sin preocupaciones.",
+"img": "https://img.freepik.com/foto-gratis/caminando-nuevo_1098-16905.jpg?t=st=1714942931~exp=1714946531~hmac=30e53e828076b05c359f12d1ee24efff0ac5447c209049b18e94b0acfeebb525&w=740"
+},
+
+{
+"name": "lentes multifocales",
+"id": 4,
 "category": "optica",
-"detail": "Permiten una transición fluida entre las zonas de visión, garantizan una claridad excepcional en todas las actividades. Versátiles y elegantes",
+"detail": "Permiten una transición fluida entre las zonas de visión, garantizan una claridad excepcional en todas las actividades. Versátiles y elegantes", 
 "img": "https://img.freepik.com/foto-gratis/gafas-telefono-mesa_23-2147717348.jpg?t=st=1712785645~exp=1712789245~hmac=eb6c27b0fc64a06f8112ee8256210a7dab4f30a31da7c7766ee12305d76467e2&w=740"
+},
+
+{
+"name": "lentes de sol",
+"id": 5,
+"category": "optica",
+"detail": "Estilo y Protección. Estos lentes no solo ofrecen un toque de estilo a tu look, sino también protección UV para tus ojos.", 
+"img": "https://img.freepik.com/foto-gratis/gafas-sol-sobre-mesa_140725-7460.jpg?t=st=1714943906~exp=1714947506~hmac=17e837848fb5e0054cfbe6e7f89961b69f70d679e5f86a29038fab56da2b1320&w=740"
+},
+
+{   
+"name": "estetoscopio",
+"id": 6,
+"category": "Dispositivos",
+"detail": "Escucha con Claridad. Tu herramienta esencial para auscultar con precisión y confianza",  
+"img": "https://img.freepik.com/foto-gratis/estetoscopio-medico-sobre-superficie-blanca_53876-95029.jpg?t=st=1714944184~exp=1714947784~hmac=dac49d9203e3bff8a25301a3b82c22e3b78326fb042ac066ce6242a06620062a&w=360"
+},
+
+{
+"name": "esfigmomanometro digital",
+"id": 7,
+"category": "Dispositivos",
+"detail": "Controla tu Presión Arterial. Un dispositivo imprescindible para monitorear tu salud cardiovascular.", 
+"img": "https://img.freepik.com/foto-gratis/dispositivo-medicion-presion-arterial-primer-plano_23-2148538279.jpg?t=st=1714944454~exp=1714948054~hmac=19f8103aefbaebe64379dcb7aedfaf649caf36823042d2a793c24bbfafbaf829&w=360"
+},
+
+{
+"name": "saturometro",
+"id": 8,
+"category": "Dispositivos",
+"detail": "Vigila tu Oxigenación. Un dispositivo esencial para medir la saturación de oxígeno en tu sangre de manera rápida y precisa.", 
+"img": "https://img.freepik.com/foto-gratis/primer-plano-oximetro-mano-paciente-mayor-acostado-cama-persona-mayor-que-tiene-dispositivo-electronico-medir-saturacion-oxigeno-presion-pulso-dedo-adulto-herramienta-cardiologia_482257-38568.jpg?t=st=1714944601~exp=1714948201~hmac=56058a0f1df93158a1ba40365213314a3a3f7c08e7c8240d596b305bba797f17&w=360"
 }
 ]
