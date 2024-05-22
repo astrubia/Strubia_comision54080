@@ -14,8 +14,23 @@ export const Provider = ({ children }) => {
         setItems(filtered);
     };
 
-    const addItem = (item) => {
-        setItems([...items, item]);
+    const addItem = (item, quantity) => {
+        const isExist = items.some((i) => i.id === item.id);
+
+        if (isExist) {
+            const updateItems = items.map((i) => {
+                if (i.id === item.id) {
+                    return { ...i, quantity: i.quantity + quantity };
+                }
+                else {
+                    return i;
+                }
+            });
+            setItems(updateItems);
+            }
+        else {
+        setItems([...items, {...item, quantity }]);
+        }
     };
 
     return (
